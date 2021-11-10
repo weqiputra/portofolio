@@ -1,0 +1,40 @@
+body {
+  min-height: 2000px;
+}
+.jumbotron {
+  padding-top: 6rem;
+  background-color: #ecf5e9;
+}
+#project {
+  background-color: #ecf5e9;
+}
+footer {
+  background-color: #e314e8;
+}
+
+section {
+  padding-top: 6rem;
+}
+#status.sukses {
+  background-color: #e314e8;
+  animation: status 4s ease forwards;
+}
+#status.error {
+  background-color: rgb(223, 57, 57);
+  color: white;
+  animation: status 4s ease forwards;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  90% {
+    opacity: 1;
+    pointer-events: all;
+  }
+  100% {
+    opacity: 0;
+    pointer-events: none;
+  }
+}
